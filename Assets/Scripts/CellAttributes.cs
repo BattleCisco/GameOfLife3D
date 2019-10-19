@@ -7,5 +7,4 @@ public class CellAttributes : ScriptableObject {
     public bool permanentColor;
     public Color color;
     public bool invulnerable;
-    public bool gravity;
 }
