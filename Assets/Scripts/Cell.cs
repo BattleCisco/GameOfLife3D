@@ -31,7 +31,6 @@ public class Cell : MonoBehaviour {
     public AnimationCurve deathCurve;
 
     void Start() {
-        alive = true;
         nextAlive = false;
         birthTick = 0;
         deathTick = -1;
@@ -63,7 +62,7 @@ public class Cell : MonoBehaviour {
 
         if (alive) {
             nextAlive = false;
-            if (neighbours >= gameManager.lowerLivingRemaining && neighbours <= gameManager.HigherLivingRemaining) {
+            if (neighbours >= gameManager.LowerLivingRemaining && neighbours <= gameManager.HigherLivingRemaining) {
                 nextAlive = true;
             }
             if (!nextAlive)
@@ -71,7 +70,7 @@ public class Cell : MonoBehaviour {
         }
         else {
             nextAlive = false;
-            if (neighbours >= gameManager.lowerDeadWillBecomeAlive && neighbours <= gameManager.higherDeadWillBecomeAlive) {
+            if (neighbours >= gameManager.LowerDeadWillBecomeAlive && neighbours <= gameManager.HigherDeadWillBecomeAlive) {
                 nextAlive = true;
                 birthTick = gameManager.tick;
             }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Attribute", menuName = "Attribute")]
 public class CellAttributes : ScriptableObject {
-    public bool permanentColor;
-    public Color color;
+    //Room for expansion
+
     public bool invulnerable;
 }
