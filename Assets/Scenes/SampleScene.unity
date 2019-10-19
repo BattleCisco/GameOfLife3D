@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc138d1cba0ab1546acfd37e17ee1651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameRule: {fileID: 11400000, guid: 7246a8c88755ae44e978db2c38059a87, type: 2}
+  gameRule: {fileID: 11400000, guid: 7bf43eb4d70a6b44e9197eba48a023a6, type: 2}
   fillPercentage: 0.493
   gameareaWidth: 10
   gameareaHeight: 10
