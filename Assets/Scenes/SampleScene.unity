@@ -598,11 +598,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameRule: {fileID: 11400000, guid: 7bf43eb4d70a6b44e9197eba48a023a6, type: 2}
-  fillPercentage: 0.493
-  gameareaWidth: 10
-  gameareaHeight: 10
-  gameareaDepth: 10
-  secondsPerTick: 0.3
+  fillPercentage: 0.311
+  gameareaWidth: 20
+  gameareaHeight: 20
+  gameareaDepth: 20
+  secondsPerTick: 0.25
   timeTickStart: 0
   tick: 0
   cellPrefab: {fileID: 1741612462769667359, guid: ef07c04a4f405024f986b7a443f8dacf,

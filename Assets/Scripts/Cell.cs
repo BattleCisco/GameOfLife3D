@@ -58,7 +58,6 @@ public class Cell : MonoBehaviour {
             return;
 
         int neighbours = CheckAliveNeighbours(gameManager);
-        Debug.Log(neighbours);
 
         if (alive) {
             nextAlive = false;
